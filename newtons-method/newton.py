@@ -9,7 +9,7 @@ THRESHOLD = 1e-12
 
 
 def newton_sequence(f, f_derivative, starting_x, threshold=THRESHOLD):
-    """Perform Newton's method to find the root of a differentiable funciton.
+    """Perform Newton's method to find the root of a differentiable function.
 
     Arguments:
         f: a callable specifying the function whose root is sought.
